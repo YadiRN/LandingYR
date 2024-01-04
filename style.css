@@ -184,15 +184,37 @@ body {
  margin-top: 45px;
 }
 
-.button {
-background-color: transparent;
-padding: 20px 80px;
-margin: 5px;
-margin-left: 1500px;
-border-radius: 20px;
-font-weight:bolder;
-}
-
+.btn-primario {
+  font-weight: 600;
+  border: solid 1px black;
+  background-color: transparent;
+  padding: 10px 50px;
+  border-radius: 20px
+  }
+  
+  .paginac{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .paginac img{
+    height: 50px;
+  }
+  
+  .botones {
+    display: flex;
+    gap:30px;
+    
+  }
+  
+  .btns{
+  margin-left: 1000px;
+  display: flex;
+  gap: 50px;
+  
+  }
 
 .TextoIzquierda{
    text-align:end;
