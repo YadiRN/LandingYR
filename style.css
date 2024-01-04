@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  nav{
+   position:fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100px;
+   box-sizing: border-box;
+   background: rgba(0, 0, 0.6);
+   border-bottom: 3px solid #FFFFFF;
+   background-color: rgb(174, 178, 178);
+  }
+
+  nav .logo{
+   padding: 22px 20px;
+   height: 80px;
+   float: left;
+  }
+
+ #movil {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    display: none;
+  }
+
+  nav ul {
+   list-style: none;
+   float: right;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+  }
+
+  nav ul li a {
+   line-height: 80px;
+   color: #FFFFFF;
+   padding: 12px 30px;
+   text-decoration: none;
+   font-size: 15px;
+   text-transform: uppercase;
+   }
+
+   .active {
+    color: rgb(198, 198, 198);
+   }
+  .bar {
+    width: 2px;
+    background-color:white;
+    height: 20px;
+    }
+
+  .large {
+    width: 2px;
+    background-color:white;
+    height: 40px;
+  }
+
+  nav ul li img {
+   line-height: 80px;
+   color: #FFFFFF;
+   padding: 12px 30px;
+   margin-top: 10px;
+  }
+
+  section {
+   width: 100%;
+   height: 1000px;
+   background: url(./image/Inicio.png);
+   background-repeat: no-repeat;
+   object-position: top -300px right 0;
+  }
+
+
+  .search-container {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+  }
+
+  .search-container input[type="text"] {
+    padding: 5px;
+    background: transparent;
+    border-color: #FFFFFF;
+    border-radius: 50px;
+    width: 350px;
+    height: 40px;
+    color: white;
+    padding-left: 40px;
+    margin-right: 140px;
+    margin-top: 79px;
+  }
+
+  .search-container input[type="text"]::placeholder {
+    color: white;
+  }
+
+  .search-icon {
+    margin-left: 5px;
+  }
+
+  footer {
+    margin-top: 200px;
+    background-color: black;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 0; 
+    width: 100%;
+    padding-top: 10%;
+    text-align:left;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contenedor_flotant{
+    background-color: #26282B;
+    width: 80%;
+    height: 280px;
+    text-align:unset;
+    font-size: larger;
+    position:absolute;
+    top: 0;
+    z-index: index 500;
+    margin-top: calc(-280px / 2);
+  }
+
+  .section {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    flex: 1;
+    max-width: 200px;
+    text-align: left;
+  }
+
+.nwd{
+ text-align: right;
+ margin-left: 10%;
+}
+
+.pgold {
+ color: #DF991B;
+ font-weight: 300;
+ margin: 0;
+}
+
+.titlee {
+ font-weight: 800;
+ margin: 0;
+}
+
+.Contact {
+  margin-left: 1000px;
+  }
+
+.dprin {
+ display: flex;
+ align-items: center;
+ padding-top: 80px;
+}
+
+.dvimgs {
+ display: contents;
+}
+
+.imgss {
+ margin: 20px;
+ width: 265px;
+ height: auto;
+}
+
+.container {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr); 
+ gap: 20px;
+ margin-top: 45px;
+}
+
+.button {
+background-color: transparent;
+padding: 20px 80px;
+margin: 5px;
+margin-left: 1500px;
+border-radius: 20px;
+font-weight:bolder;
+}
+
+
+.TextoIzquierda{
+   text-align:end;
+   padding-right: 20%;
+   padding-top: 10%;
+
+}
+
+.Textoderecha {
+ padding-left: 10%;
+ padding-top: 10%;
+ text-size-adjust: 10px;
+}
+
+.allimgs div img {
+ width: 300px;
+ margin: 10px;
+}
+
+#services {
+  text-align:unset;
+  font-size:x-large;
+  margin-left: 8%;
+  margin-right: 20%;
+}
+
+@media screen and (max-width: 800px) {
+  #logo {
+    display: none;
+  }
+ 
+  #movil {
+  display:block
+  }
+
+  #login{
+    display: none;
+  }
+  .bar{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 895px) {
+  .contenedor_flotant{
+  height: 200px;
+}
+
+.Contact {
+  margin-left: 300px;
+  }
+}
+
+
+
