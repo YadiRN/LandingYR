@@ -85,6 +85,7 @@ body {
     text-align: right;
   }
 
+  
   .search-container input[type="text"] {
     padding: 5px;
     background: transparent;
@@ -100,10 +101,13 @@ body {
 
   .search-container input[type="text"]::placeholder {
     color: white;
+    padding-right: 10px 200px;
   }
 
   .search-icon {
-    margin-left: 5px;
+    margin-left: 0;
+    margin-right: 200px;
+    color: black;
   }
 
   footer {
@@ -232,6 +236,29 @@ body {
 .allimgs div img {
  width: 300px;
  margin: 10px;
+ position:static;
+}
+
+
+.column:hover{
+  cursor: pointer;
+}
+
+.column:hover p{
+  background-color:white;
+  color: black;
+}
+
+.column p{
+color:rgb(78, 46, 46);
+font-size:bolder;
+font:bold;
+z-index: 1;
+bottom: 0;
+left: 40px;
+width: 100%;
+padding:auto;
+
 }
 
 #services {
@@ -269,5 +296,18 @@ body {
   }
 }
 
+@media screen and (max-width: 790px) {
+  .botones {
+    display:grid;
+    }
+  
+    .btns {
+      display:grid;
+      margin-left: 300px;
+    }
+}
 
-
+@media screen and (max-width: 790px) {
+  .search-icon{
+    margin-right: auto;
+  }
